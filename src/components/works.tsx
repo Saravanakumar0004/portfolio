@@ -91,6 +91,7 @@ const ProjectCard = ({
 // Works
 export const Works = () => {
   return (
+    <>
     <SectionWrapper idName="projects">
       <>
         {/* Title */}
@@ -121,5 +122,6 @@ export const Works = () => {
         </div>
       </>
     </SectionWrapper>
+    </>
   );
 };

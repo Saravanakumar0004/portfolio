@@ -124,6 +124,7 @@ export const Contact = () => {
   };
 
   return (
+    <>
     <SectionWrapper idName="contact">
       <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
         <motion.div
@@ -227,5 +228,6 @@ export const Contact = () => {
         </motion.div>
       </div>
     </SectionWrapper>
+    </>
   );
 };

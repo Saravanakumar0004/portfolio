@@ -67,6 +67,7 @@ const EducationCard = ({ education }: EducationCardProps) => (
 // Education
 export const Education = () => {
   return (
+    <>
     <SectionWrapper idName="education">
       <>
         {/* Title */}
@@ -85,5 +86,6 @@ export const Education = () => {
         </div>
       </>
     </SectionWrapper>
+    </>
   );
 };

@@ -60,6 +60,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => (
 // Experience
 export const Experience = () => {
   return (
+    <>
     <SectionWrapper idName="work">
       <>
         {/* Title */}
@@ -78,5 +79,6 @@ export const Experience = () => {
         </div>
       </>
     </SectionWrapper>
+    </>
   );
 };

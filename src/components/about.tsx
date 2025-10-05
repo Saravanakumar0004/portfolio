@@ -41,6 +41,7 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
 // About
 export const About = () => {
   return (
+    <>
     <SectionWrapper idName="about">
       <>
         {/* Title */}
@@ -69,5 +70,6 @@ export const About = () => {
         </div>
       </>
     </SectionWrapper>
+    </>
   );
 };

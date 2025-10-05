@@ -5,6 +5,7 @@ import { SectionWrapper } from "../hoc";
 // Technologies
 export const Tech = () => {
   return (
+    <>
     <SectionWrapper>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {/* Iterate over each technology */}
@@ -15,5 +16,6 @@ export const Tech = () => {
         ))}
       </div>
     </SectionWrapper>
+    </>
   );
 };
