@@ -345,7 +345,7 @@ export const PROJECTS = [
   ],
   image: product, // replace with your project screenshot/image variable
   source_code_link: "https://github.com/your-github-username/product-customization-website",
-  live_site_link: "https://product-customization-website.vercel.app/mobile",
+  live_site_link: "https://product-customization-website.vercel.app/",
 }, {
   name: "Grill Restaurant Website",
   description:
