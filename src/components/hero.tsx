@@ -7,7 +7,7 @@ import { cn } from "../utils/lib";
 // Hero
 export const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto overflow-hidden">
       <div
         className={cn(
           styles.paddingX,
@@ -32,13 +32,13 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Computer Model - positioned with proper spacing */}
-      <div className="absolute inset-0 top-[200px] md:top-[250px] z-0">
+      {/* Computer Model - positioned with proper spacing and mobile-friendly height */}
+      <div className="absolute inset-0 top-[120px] sm:top-[200px] md:top-[250px] h-[70vh] sm:h-[calc(100vh-200px)] z-0 w-full">
         <ComputersCanvas />
       </div>
 
       {/* Scroll to about section */}
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-10">
+      <div className="absolute xs:bottom-10 bottom-8 w-full flex justify-center items-center z-10">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
