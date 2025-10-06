@@ -21,18 +21,8 @@ import {
   express,
   docker,
   vercel,
-  meta,
-  starbucks,
   vei,
-  tesla,
-  shopify,
   threejs,
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
  micro,
   youtube,
   linkedin,
@@ -48,7 +38,7 @@ import {
   studio,
   ivmonitor,
 } from "../assets";
-import { Education } from "../components";
+
 
 // Navbar Links
 export const NAV_LINKS = [

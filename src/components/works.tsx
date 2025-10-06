@@ -1,4 +1,4 @@
-import { Tilt } from "react-parallax-tilt";
+import Tilt from "react-parallax-tilt"; 
 import { motion } from "framer-motion";
 
 import { github, preview } from "../assets";
