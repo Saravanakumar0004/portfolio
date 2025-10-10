@@ -57,6 +57,8 @@ import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
 import youtube from "./socials/youtube.svg";
 
+import Profile from "./profile/WhatsApp Image 2025-09-14 at 21.24.40_2564c7b7.jpg";
+
 export {
   backend,
   bulb,
@@ -106,4 +108,5 @@ export {
   virtual,
   mailam,
   ivmonitor,
+  Profile,
 };
